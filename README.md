@@ -107,8 +107,9 @@ bash
 ./auto_commit.sh
 6. 运行结果
 脚本运行后，终端会逐行显示每次提交的信息。脚本结束后，你的 GitHub 仓库中将多出 NUM_COMMITS 次提交记录，每次提交的信息会按照顺序编号。
-#可能用到的代码
-# textgit config user.name "username"
+# 可能用到的代码
+
+textgit config user.name "username"
 git config user.email "邮箱.com"
 git config --global core.autocrlf true
 chmod +x auto_commit.sh
